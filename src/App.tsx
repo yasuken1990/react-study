@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <table className="table table-striped">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>yasuken1</td>
+          <td>yasuken1991@gmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>yasuken2</td>
+          <td>yasuken1992@gmail.com</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>yasuken2</td>
+          <td>yasuken1993@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
   );
 }
 

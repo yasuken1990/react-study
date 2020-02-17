@@ -1,3 +1,9 @@
+1. Node.js Install (https://nodejs.org/ja/)
+2. yarn Install (https://classic.yarnpkg.com/ja/docs/install/)
+3. $ npx create-react-app . --template typescript
+4. $ yarn add bootstrap
+5. $ yarn start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
